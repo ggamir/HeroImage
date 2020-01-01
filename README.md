@@ -4,6 +4,22 @@ This is a simple component that renders a responsive image in such a way so that
 
 When the space is wider than the displayed image, the image is centered and the background is filled with a blurred blown-up version of the original image so that there is no whitespace.
 
+## How to Use
+
+You can copy HeroImage.css and the HeroImage.js files into your project, and then use it like a normal react component:
+
+```
+<HeroImage height="80vh" path="your/path/to/image.png" description="User-friendly description of image for accessiblity">
+```
+
+Requires `path` to point to image file.
+
+Requires `height` to be set on the HeroImage or non-percentage css height needs to be set on one of the parent elements further up the tree. If no height is set, the element may not be visible.
+
+Recommended `description` to provide user-friendly description for accessibility.
+
+## Bootstrapped
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts

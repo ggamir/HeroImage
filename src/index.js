@@ -3,6 +3,6 @@ import ReactDOM from 'react-dom';
 import HeroImage from './HeroImage/HeroImage';
 
 ReactDOM.render(
-    <HeroImage height='60vh' description='my hero academia' />,
+    <HeroImage path='' height='80vh' description='my hero academia' />,
     document.getElementById('root')
 );
